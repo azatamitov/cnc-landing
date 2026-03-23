@@ -78,7 +78,7 @@ a:hover {
 
 .btn-primary {
   background: var(--color-accent);
-  color: var(--color-mine-shaft);
+  color: var(--color-white);
 }
 
 .btn-primary:hover {
@@ -255,6 +255,10 @@ a:hover {
   color: var(--color-white);
 }
 
+.section-problem .problem-list li {
+  color: var(--color-white);
+}
+
 .section-problem .problem-list li::before {
   background: rgba(255, 255, 255, 0.85);
 }
@@ -284,7 +288,7 @@ a:hover {
   top: 10px;
   width: 4px;
   height: 4px;
-  background: var(--color-mine-shaft);
+  background: currentColor;
   border-radius: 2px;
 }
 
