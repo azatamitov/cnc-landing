@@ -93,7 +93,8 @@ a:hover {
 }
 
 .btn-outline:hover {
-  background: var(--color-accent);
+  background: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
 }
 
 .hero .btn-outline {
@@ -102,7 +103,8 @@ a:hover {
 }
 
 .hero .btn-outline:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
 }
 
 .btn-sm {
@@ -416,6 +418,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   background: var(--color-accent);
+  color: var(--color-white);
   border-radius: var(--radius);
   font-weight: 600;
   font-size: 14px;
@@ -581,6 +584,15 @@ a:hover {
   color: var(--color-white);
 }
 
+.section-contact .btn-primary {
+  background: var(--color-accent-hover);
+  color: var(--color-white);
+}
+
+.section-contact .btn-primary:hover {
+  background: var(--color-accent-hover);
+}
+
 .contact-subtitle {
   margin-bottom: 32px;
   max-width: 600px;
@@ -656,7 +668,8 @@ a:hover {
 }
 
 .section-contact .btn-outline:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
 }
 
 .contact-alt li {
