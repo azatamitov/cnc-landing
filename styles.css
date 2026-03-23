@@ -95,6 +95,7 @@ a:hover {
 .btn-outline:hover {
   background: var(--color-accent-hover);
   border-color: var(--color-accent-hover);
+  color: var(--color-white);
 }
 
 .hero .btn-outline {
@@ -670,6 +671,7 @@ a:hover {
 .section-contact .btn-outline:hover {
   background: var(--color-accent-hover);
   border-color: var(--color-accent-hover);
+  color: var(--color-white);
 }
 
 .contact-alt li {
