@@ -1,7 +1,7 @@
 /* Design tokens from code.md (armatek.instrumentgroup.ru) */
 :root {
   --color-mine-shaft: #272727;
-  --color-accent: #BFD7FF; /* бледно-синий (акцент) */
+  --color-accent: #0B2F5B; /* тёмно-синий (акцент) */
   --color-accent-hover: #2F80FF; /* ярко-синий (hover) */
   --color-sirocco: #727676;
   --color-dark: #3C3C3C;
@@ -685,7 +685,7 @@ a:hover {
 
 .footer-nav a:hover {
   opacity: 1;
-  color: var(--color-accent);
+  color: var(--color-accent-hover);
 }
 
 .footer-details {
@@ -695,7 +695,7 @@ a:hover {
 }
 
 .footer-details a {
-  color: var(--color-accent);
+  color: var(--color-accent-hover);
 }
 
 .footer-copy {
